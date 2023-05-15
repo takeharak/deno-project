@@ -8,11 +8,13 @@
 	},
 
 	"remoteEnv": {
-		"EDITOR": "code --wait"
-	},
+		"EDITOR": "code --wait",
+    "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+  },
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
 		"ghcr.io/devcontainers/features/git:1": {},
 		"ghcr.io/devcontainers/features/node:1": {}
 	},
