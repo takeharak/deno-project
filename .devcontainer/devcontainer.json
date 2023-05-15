@@ -24,7 +24,8 @@
 				"denoland.vscode-deno",
 				"eamodio.gitlens",
 				"editorconfig.editorconfig",
-				"medo64.render-crlf"
+				"medo64.render-crlf",
+				"rangav.vscode-thunder-client"
 			],
 			"settings": {
 				"editor.defaultFormatter": "EditorConfig.EditorConfig",
@@ -48,7 +49,8 @@
 				"[typescript]": {
 					"editor.formatOnSave": true,
 					"editor.defaultFormatter": "denoland.vscode-deno"
-				}
+				},
+				"thunder-client.saveToWorkspace": true
 			}
 		}
 	},
