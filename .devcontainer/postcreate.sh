@@ -12,3 +12,6 @@ npm install -g editorconfig npm
 # install commitlint
 npm install -g @commitlint/cli @commitlint/config-conventional
 npx -y husky install
+
+# install dependencies
+deno cache main.ts
